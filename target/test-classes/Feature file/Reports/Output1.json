@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook login credentials testing",
+        "description": "",
+        "id": "facebook-functionality-testing;facebook-login-credentials-testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13350076800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the facebook login page",
+            "match": {
+              "location": "StepDef.user_is_on_the_facebook_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 449708600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter the username and password",
+            "match": {
+              "location": "StepDef.user_should_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171271900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {
+              "location": "StepDef.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should verify the success message",
+            "match": {
+              "location": "StepDef.user_should_verify_the_success_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook functionality testing",
+    "description": "",
+    "id": "facebook-functionality-testing",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature file/Cucumber.feature",
+    "tags": []
+  }
+]
